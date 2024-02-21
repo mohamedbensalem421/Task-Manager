@@ -1,0 +1,174 @@
+* {
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  height: 100vh;
+}
+.container {
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 1px 6px 7px 1px #ddd;
+  border-radius: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+input::placeholder {
+  opacity: 0.5;
+}
+.loginForm button,
+.registerForm button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 45px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ff7e00;
+  color: white;
+  cursor: pointer;
+}
+.loginForm p,
+.registerForm p {
+  margin-top: 100px;
+}
+.loginForm a,
+.registerForm a,
+.userName a{
+  color: #ff7e00;
+  text-decoration: none;
+}
+.loginForm span,
+.registerForm span,
+.singleTask span,
+.taskForm span{
+  display: block;
+  font-size: small;
+  color: red;
+  margin:5px 0px ;
+}
+.taskForm > div {
+  display: flex;
+  align-items: start;
+}
+.taskForm button,.singleTask button{
+  padding: 11px 25px;
+  margin-left: -20px;
+  border: none;
+  background-color: #ff7e00;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+.tasks > div {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.tasks a {
+  color: green;
+  margin-left: auto;
+}
+.tasks .delete {
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.tasks .completed {
+  margin-right: 10px;
+  color: green;
+}
+.userName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.singleTask > div{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.singleTask .checkbox{
+  margin: 18px 0px;
+  width: fit-content;
+}
+.singleTask input{
+  margin: 0%;
+}
+.singleTask label{
+  min-width: 80px ;
+  text-align: start;
+}
+.singleTask button{
+  margin: auto;
+}
+.singleTask .back{
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  background: black;
+  text-align: center;
+  color: white;
+  width: fit-content;
+  margin-top: 50px;
+  padding: 15px 80px;
+  border-radius: 8px;
+}
+
+.singleTask button{
+  padding: 5px 20px;
+  border: none;
+  background-color: turquoise;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back{
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  background: black;
+  text-align: center;
+  color: white;
+  width: fit-content;
+  margin-top: 100px;
+  padding: 15px 80px;
+  border-radius: 8px;
+}
+
+.tasks > div p{
+  margin: 0px;
+}
+a{
+  color: green;
+  margin-left: auto;
+}
+.fetchError{
+  padding: 10px;
+  background-color: rgba(255, 0, 0, 0.387);
+  color: red;
+  text-align: center;
+}
+.task-success,
+.edit-success{
+  text-align: start;
+  margin-bottom: 0%;
+  font-size: small;
+}
+.edit-success{
+  text-align: center;
+} 
