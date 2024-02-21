@@ -164,11 +164,3 @@ a{
   text-align: center;
 }
 .task-success,
-.edit-success{
-  text-align: start;
-  margin-bottom: 0%;
-  font-size: small;
-}
-.edit-success{
-  text-align: center;
-} 
